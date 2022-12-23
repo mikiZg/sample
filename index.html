@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="images/icons8-turtle-48.png">Turtle</link> icon by <a href="https://icons8.com">Icons8</a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--favicons must go in <head> section-->
+</head>
+<body id="top">
+
+   
+    <header>
+        <h1>Naslov</h1>
+        <h3  id="other">Podnaslov</h3>
+    </header>
+<section>
+    <h4>Font Awesome (connection CDN)</h4>
+    <a href="https://www.mail.com" aria-label="Mail.com"><i class="fa-sharp fa-solid fa-face-grin-beam" style="font-size: 50px; color:red"></i></a>
+    <!--ARIA LABEL koristim jer inače screen reader ne bi mogao pročitati iconu-OVO KORISIT DA TI PAGE BUDE FULL ACCESSIBALE ;) -->
+</section>
+
+    <section>
+        <h2>Drugi podnaslov, naslov sekcije</h2>
+        <p>Neki tekst</p>
+    </section>
+
+    <section>
+<section>
+    <h5>Speakers</h5>
+    <h3>World-Class Speakers</h3>
+    <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+</section>
+
+<section>
+    <h5>Schedule</h5>
+    <h3>Three inspiring days</h3>
+    <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+</section>
+
+<section>
+    <h5>Venue</h5>
+    <h3>The Chicago Theatre</h3>
+    <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+</section>
+
+    </section>
+
+    <nav>
+        <ul>
+            <li><a href="#other">Other</a></li>
+            <li><a href=#overview">Overview</a></li>
+        </ul>
+    </nav>
+
+<section>
+    <h4>Image default size</h4>
+    <figure>
+        <img src = "images/Space.jpg" width="85%" alt="Space...the final frontier">
+       <!-- HINT: UVIJEK KORISTI POSTOTAK ZA POSTAVLJANJE WIDTH I HEIGHT OD SLIKE, TIME JE IMAGE RESPONSIVAN, TO JEST SMANJujE SE S EKRANOM I POVEĆAVA S NJIME-->
+        <figcaption>Default image size of image Space</figcaption>
+    </figure>
+</section>
+
+
+
+<section>
+    <h4>Hyperlinks</h4>
+    <p><b>Absolute (global links)</b> - use when linking to other web pages and other people content</p>
+    <a href="https://www.stackoverflow.com/">Stack Overflow - absolute</a>
+    <p><b>Relative(local links)</b> - use when linking to your own page, inside your page, when moving to another server or something you don't have to rename everything</p>
+    <a href="other.html">Other - relative</a>
+    <!--DON'T USE A REFERENCE TO YOUR LOCAL FOLDERS LIKE C://IMAGE4.PNG WHEN DEPLYOING  ON THE WEB!!-->
+    <p><b>Internal</b> - linking locally on the same page or pages</p>
+    <a href="#other">Other - internal</a>
+    <h4>Anchors can take a target attribute</h4>
+    <p>_self - default action</p>
+    <p>_blank - open in new tab or window</p>
+    <p>_top & _parent</p><br>
+    <a href="https://www.nasa.gov/" target="_blank">NASA</a>
+
+</section>
+
+<section>
+    <h3 title="Tables">Tables</h3>
+    <table>
+        <tr><th>Row One</th><th>Row Two</th><th>Row Three</th></tr>
+        <tr><td>One</td><td>Two</td><td>Three</td></tr>
+        <tr><td>Four</td><td>Five</td><td>Six</td></tr>
+        <tr><td>Seven</td><td>Eight</td><td>Nine</td></tr>
+    </table><br><br>
+<!--Which code will properly insert headings along each row?-->
+<table><!--KAJ SAM JA NAPRAVIO I INAČE BI BILO TOČNO ALI TRAŽI U ZADATKU HEADING ZA EACH ROW,
+     ZNACI SVAKI REDAK POČINJE SA HEADINGOM,
+      NIJE VERTIKALNO KAO ŠTO SI TI NAPRAVIO, NEGO IDE U HORIZONTALU-->
+    <tr><th>Name</th><th>Age</th><th>Team</th></tr>
+    <tr><td>Colleen</td><td>26</td><td>Browns</td></tr>
+  </table><br><br>
+
+  <!--OVO JE TREBALO, ČITAJ ZADATKE I NE ŽURI, NITKO TE NE GANJA-->
+  <table>
+    <tr><th>Name</th><td>Colleen</td></tr>
+    <tr><th>Age</th><td>26</td></tr>
+    <tr><th>Team</th><td>Browns</td></tr>
+  </table>
+<br><br>
+     
+    <table border="1">
+            <tr>
+            <th>Marka vozila </th><th>Tip </th>
+        </tr>
+        <tr>
+            <td rowspan="2">Opel</td><td>Astra 2008</td>
+        </tr>
+       <tr> <td>Insignia</td></tr>
+       <tr><td>Chrysler</td><td>Chrysler 300</td></tr>
+       <tr><td rowspan="2">Audi</td><td>Audi A3</td></tr>
+       <tr><td>Audi A4</td></tr>
+    </table><br><br>
+
+    <table border="2">
+        <th colspan="3">Review - recap</th>
+        <tr><td rowspan="3">Tables should only be used for tabular data</td><td>Draw your table before you code your table</td><td>Check for unclosed tags</td></tr>
+        <tr></tr>
+    </table>
+</section>
+<ol>
+    <li>Item1</li>
+    <li>Item2
+    <ul>
+        <li>Item2.1</li>
+        <li>Item2.2</li>
+       
+    </ul>
+</li>
+</ol>
+<section>
+    <h3 style="color:rgb(109, 32, 181)">Tags</h3>
+    <ul>
+        <li><strong>Generic : <,p>,  <,div> </strong> </li><br>
+        <li><strong>Semantic : <,header>, <,nav>, <,footer>, <,figure></strong> </li><br>
+        <li><strong>Containers : article, aside, section, main</strong></li><br>
+        <li><strong>Some more </strong>( Brijem da nisu ovo kontejneri isto, double-check za svaki slučaj )hr - horizontal rule, address, blockquote - has cite attribute, details with summary</li><br>
+        <li><strong> Inline tags </strong>: span was the original inline tag for plain text, onda
+            <br><p>cite - much easier for people and bots to search the code for a specific information,</p>
+            <p>abbr - will display an abbreviation on the borwser( ako npr. imamo Mon,Tue,Wed... kada mišem pređemo preko kratice, ispod miša će nam se prikazati puni naziv - Monday, Tuesday..),</p>
+            <p>time - completely semantic tag that can be used to search for specific information</p>
+            <p>code - element tends to be displayed in a different font, but the reader will reade code so people will understand that the next text is actually a presentasion of some sort of code,</p>
+            <p>sub & sup</p>
+            <li><strong>Tags that need "more" : </strong> button, meter, progress
+            <p>i,frame - often used to embed documents</p>
+        <p>bdo attribute dir (ltr or rtl) - text will go right direction or left direction</p>
+    <p>map with area -- creates "clickabale element in image" but needs JavaScript</p></li>
+        </li>
+    </ul>
+</section>
+
+    <footer>
+        <small>&copy; Styles Conference</small>
+<!-- Relative Path -->
+       <small><a href="other.html">other</a></small> 
+<!-- Absolute Path -->
+        <small><a href="https://www.google.com/">Google</a></small><br>
+
+        <small><a href="https://www.google.com/" target="_blank">Otvori Google u novom prozoru</a></small><br>
+
+        <small><a href="mailto:myposao@mail.com?subject=Reaching%20Out&body=How%20are%20you">Email me with populated text </a></small>
+        <br><small><a href="#top">Back to top</a></small><br>
+        <small><a href="mailto:myposao@mail.com">Mail to myposao@mail.com</a></small>
+
+    </footer>
+
+
+</body>
+</html>
